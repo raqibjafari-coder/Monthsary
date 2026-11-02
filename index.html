@@ -32,13 +32,6 @@
             z-index: 0;
             pointer-events: none;
         }
-        .wax-seal {
-            transition: all 0.3s ease;
-        }
-        .wax-seal:hover {
-            transform: scale(1.05);
-            box-shadow: 0 10px 25px rgba(225, 29, 72, 0.3);
-        }
     </style>
 </head>
 <body class="relative selection:bg-rose-200">
@@ -78,16 +71,10 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Card 1 -->
+            <!-- Card 1 (memory1.jpg) -->
             <div class="bg-white/80 backdrop-blur-md p-6 rounded-3xl shadow-xl shadow-rose-900/5 border border-rose-100 flex flex-col justify-between">
                 <div>
-                    <!-- REPLACE THIS PLACEHOLDER WITH YOUR IMAGE TAG: <img src="your-image-1.jpg" class="w-full h-56 object-cover rounded-2xl mb-4" /> -->
-                    <div class="w-full h-56 bg-rose-50 rounded-2xl flex flex-col items-center justify-center text-rose-400 mb-4 border border-rose-100">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mb-2 opacity-70" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                        </svg>
-                        <span class="text-xs font-semibold tracking-wide uppercase">Replace with your photo</span>
-                    </div>
+                    <img src="memory1.jpg" alt="Memory 1" class="w-full h-56 object-cover rounded-2xl mb-4 border border-rose-100" />
                     <span class="text-xs font-bold tracking-widest text-rose-600 uppercase">Month 1 • The Beginning</span>
                     <h3 class="text-2xl font-bold text-slate-800 mt-1 mb-2">Where It All Started</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
@@ -96,16 +83,10 @@
                 </div>
             </div>
 
-            <!-- Card 2 -->
+            <!-- Card 2 (memory2.jpg) -->
             <div class="bg-white/80 backdrop-blur-md p-6 rounded-3xl shadow-xl shadow-rose-900/5 border border-rose-100 flex flex-col justify-between">
                 <div>
-                    <!-- REPLACE THIS PLACEHOLDER WITH YOUR IMAGE TAG: <img src="your-image-2.jpg" class="w-full h-56 object-cover rounded-2xl mb-4" /> -->
-                    <div class="w-full h-56 bg-rose-50 rounded-2xl flex flex-col items-center justify-center text-rose-400 mb-4 border border-rose-100">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mb-2 opacity-70" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                        </svg>
-                        <span class="text-xs font-semibold tracking-wide uppercase">Replace with your photo</span>
-                    </div>
+                    <img src="memory2.jpg" alt="Memory 2" class="w-full h-56 object-cover rounded-2xl mb-4 border border-rose-100" />
                     <span class="text-xs font-bold tracking-widest text-rose-600 uppercase">1 Year Anniversary</span>
                     <h3 class="text-2xl font-bold text-slate-800 mt-1 mb-2">365 Days of Joy</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
@@ -114,16 +95,10 @@
                 </div>
             </div>
 
-            <!-- Card 3 -->
+            <!-- Card 3 (memory.jpg) -->
             <div class="bg-white/80 backdrop-blur-md p-6 rounded-3xl shadow-xl shadow-rose-900/5 border border-rose-100 flex flex-col justify-between">
                 <div>
-                    <!-- REPLACE THIS PLACEHOLDER WITH YOUR IMAGE TAG: <img src="your-image-3.jpg" class="w-full h-56 object-cover rounded-2xl mb-4" /> -->
-                    <div class="w-full h-56 bg-rose-50 rounded-2xl flex flex-col items-center justify-center text-rose-400 mb-4 border border-rose-100">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mb-2 opacity-70" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                        </svg>
-                        <span class="text-xs font-semibold tracking-wide uppercase">Replace with your photo</span>
-                    </div>
+                    <img src="memory.jpg" alt="Memory 3" class="w-full h-56 object-cover rounded-2xl mb-4 border border-rose-100" />
                     <span class="text-xs font-bold tracking-widest text-rose-600 uppercase">Today • 1 Year & 7 Months</span>
                     <h3 class="text-2xl font-bold text-slate-800 mt-1 mb-2">19 Monthsary</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
@@ -134,11 +109,27 @@
         </div>
     </section>
 
+    <!-- SPECIAL LEON S. KENNEDY SECTION (leon.jpg) -->
+    <section class="py-16 px-4 max-w-2xl mx-auto relative z-10 text-center">
+        <div class="bg-white/90 backdrop-blur-md p-8 rounded-3xl shadow-xl shadow-rose-900/5 border border-rose-100">
+            <span class="text-xs font-bold tracking-widest text-rose-600 uppercase">Special Appearance</span>
+            <h2 class="text-3xl font-bold text-slate-800 mt-1 mb-4">Leon S. Kennedy Approved 🧥🔥</h2>
+            
+            <div class="w-full h-72 bg-rose-50 rounded-2xl overflow-hidden mb-4 border border-rose-100">
+                <img src="leon.jpg" alt="Leon S. Kennedy" class="w-full h-full object-cover" />
+            </div>
+            
+            <p class="text-slate-600 text-sm italic">
+                "Even through a zombie apocalypse, this love hits different."
+            </p>
+        </div>
+    </section>
+
     <!-- LOVE LETTER SECTION -->
     <section id="letter" class="py-20 px-4 max-w-3xl mx-auto relative z-10">
         <div class="text-center mb-12">
             <h2 class="text-4xl font-bold text-slate-800 mb-2">A Special Letter For You</h2>
-            <p class="text-slate-500">Tap or read below for your monthsary letter!</p>
+            <p class="text-slate-500">Your monthsary letter</p>
         </div>
 
         <div class="bg-white p-8 md:p-12 rounded-3xl shadow-xl shadow-rose-900/5 border border-rose-100 relative">
@@ -149,7 +140,6 @@
             <div class="mt-4 space-y-6 text-slate-700 leading-relaxed text-lg">
                 <h3 class="text-3xl font-serif text-rose-600 italic font-normal text-center mb-6">My Dearest Love,</h3>
                 
-                <!-- TYPE YOUR OWN WARDINGS HERE -->
                 <p>
                     Happy 1 Year and 7 Monthsary! Type your own heartfelt message right here. You can change this paragraph to whatever you want to tell her.
                 </p>
